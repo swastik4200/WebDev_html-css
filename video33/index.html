@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --color: blue;
+            --color2: rgb(149, 144, 236);
+            --color3: rgb(125, 229, 233);
+            --color4: rgb(223, 125, 228);
+            --colornav: rgb(181, 54, 245);
+            --pad: 20px;
+            --opa: 20px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(197, 147, 244);
+        }
+
+        .navbar {}
+
+        ul {
+            display: flex;
+            /* list-style: none; */
+            padding: 4px;
+            background-color: rgb(197, 147, 244);
+
+        }
+
+        ul li {
+            list-style: none;
+            padding: var(--pad);
+            border: 2px solid var(--color);
+            /* background-color: var(--color); */
+            opacity: var(--opa);
+         }
+         li:first-child{
+            color: var(--color);
+            background-color: var(--color2);
+         }
+         .op{
+            background-color: var(--color3);
+         }
+         li:last-child{
+            color: var(--color);
+            background-color: var(--color4);
+         }
+         .content{
+            color: black;
+            background-color: var(--colornav);
+         }
+
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li>hiii</li>
+            <li class="op">hellow</li>
+            <li>bye</li>
+        </ul>
+    </div>
+    <br>
+    <div class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, vero unde eligendi quam accusamus ducimus
+        quisquam illum nam fugiat quos sed repellat iusto amet dolore laborum placeat, in animi similique atque ad
+        molestiae alias est voluptate itaque? Voluptates quod corrupti est veritatis eaque sint voluptate.
+    </div>
+</body>
+
+</html>

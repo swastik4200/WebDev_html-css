@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        font-size: 12px;
+    }
+
+    .box {
+        box-sizing: border-box;
+        border: 2px solid black;
+        width: 80vw;
+        height: 10vh;
+        margin: auto;
+        background-color: aqua;
+
+    }
+
+    .container {
+        box-sizing: border-box;
+        border: 2px solid black;
+        width: 80vw;
+        /* height: 80vh; */
+        min-height: 80vh;
+        margin: 23px auto;
+        /* font-size: 18px; */
+        background-color: aqua;
+
+    }
+
+    .container div {
+        font-size: 2em;
+        border: 2px solid red;
+        width: 50%;
+    }
+    .container > div > div{
+        border: 2px solid blue;
+        width: 50%;
+
+    }
+
+    .mycont {
+        /* background-color: red; */
+        color: maroon;
+        font-size: 22px;
+        width: 80vw;
+        margin: auto;
+        box-sizing: border-box;
+        border: 2px solid black;
+    }
+</style>
+
+<body>
+    <div class="box">
+        This is a box
+    </div>
+    <div class="container">
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo exercitationem vitae nihil ut adipisci
+            veritatis amet obcaecati provident, illum, animi temporibus voluptates doloremque ex autem cum, nam
+            aspernatur
+            impedit. Sed tempore unde esse, sint incidunt at aperiam et? Illo, saepe animi minima fugit, error odio at
+       
+         corrupti doloribus nihil magni voluptatibus quam odit rerum, reiciendis omnis?
+    
+    <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis corrupti temporibus, adipisci velit dicta neque alias dignissimos expedita excepturi distinctio quod pariatur! Iure!
+    </div>
+    
+        </div>
+        <!-- lorem999 Expand to see that the box will adjust its size  -->
+    </div>
+    <div class="mycont">
+        hellow i am anather container
+    </div>
+</body>
+
+</html>
